@@ -20,11 +20,8 @@
 Usage: python WebWeight.py -u <url/domain>
 
 Options:
-<<<<<<< HEAD
--h, --help 				show this help message and exit
-=======
 -h, --help 					show this help message and exit
->>>>>>> 9910aa8c92dea822e153bf89731cd927cd00654f
+-h, --help 					show this help message and exit
 -u URL, --url=URL     				specify a url
 -f FILE, --file=FILE  				specify a filename
 -o OUTPUT, --output=OUTPUT			specify a csv filename to output (default csv)
