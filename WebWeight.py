@@ -122,7 +122,7 @@ def lookup(domain, seq, output, writer):
 def main():
 	banner()
 	optparser = optparse.OptionParser("usage: python %s -u <url/domain>" % __file__)
-	optparser.add_option("-u", "--url", dest="url", help="specify a url")
+	optparser.add_option("-u", "--url", dest="url/domain", help="specify a url or domain")
 	optparser.add_option("-f", "--file", dest="file", help="specify a filename")
 	optparser.add_option("-o", "--output", dest="output", default=str(datetime.now()).replace(":", "-") + ".csv", help="specify a csv filename to output (default csv)")
 	(options, args) = optparser.parse_args()
