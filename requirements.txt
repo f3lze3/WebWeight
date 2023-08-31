@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.2
+colorama==0.4.4
+fake_useragent==1.1.3
+Requests==2.31.0
