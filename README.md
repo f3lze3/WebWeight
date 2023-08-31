@@ -22,7 +22,7 @@ Usage: python WebWeight.py -u <url/domain>
 Options:
 -h, --help 					show this help message and exit
 -h, --help 					show this help message and exit
--u URL, --url=URL/domain     		specify a url or domain
+-u URL, --url=URL/domain     			specify a url or domain
 -f FILE, --file=FILE  				specify a filename
 -o OUTPUT, --output=OUTPUT			specify a csv filename to output (default csv)
 ```
