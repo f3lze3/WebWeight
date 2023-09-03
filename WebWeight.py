@@ -94,9 +94,12 @@ def lookup(domain, seq, output, writer):
 					if flag == "n":
 						print(BRIGHT + GREEN + "[+] 神马权重： 0")
 					else:
-						print(BRIGHT + GREEN + "[+] 百度PC权重：" + flag)
+						print(BRIGHT + GREEN + "[+] 神马权重：" + flag)
 				if flag and "sr" in src:
-					print(BRIGHT + GREEN + "[+] 搜狗权重：" + flag)
+					if flag == "n":
+						print(BRIGHT + GREEN + "[+] 搜狗权重： 0")
+					else:
+						print(BRIGHT + GREEN + "[+] 搜狗权重：" + flag)
 				if flag and "pr" in src:
 					print(BRIGHT + GREEN + "[+] 谷歌权重：" + flag)
 
