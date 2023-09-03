@@ -85,11 +85,20 @@ def lookup(domain, seq, output, writer):
 			if not output:
 
 				if flag and "br" in src and "mbr" not in src:
-					print(BRIGHT + GREEN + "[+] 百度PC权重：" + flag)
+					if flag == "n":
+						print(BRIGHT + GREEN + "[+] 百度PC权重： 0")
+					else:
+						print(BRIGHT + GREEN + "[+] 百度PC权重：" + flag)
 				if flag and "mbr" in src:
-					print(BRIGHT + GREEN + "[+] 百度移动权重：" + flag)
+					if flag == "n":
+						print(BRIGHT + GREEN + "[+] 百度移动权重： 0")
+					else:
+						print(BRIGHT + GREEN + "[+] 百度移动权重：" + flag)
 				if flag and "360" in src:
-					print(BRIGHT + GREEN + "[+] 360权重：" + flag)
+					if flag == "n":
+						print(BRIGHT + GREEN + "[+] 360权重： 0")
+					else:
+						print(BRIGHT + GREEN + "[+] 360权重：" + flag)
 				if flag and "sm" in src:
 					if flag == "n":
 						print(BRIGHT + GREEN + "[+] 神马权重： 0")
@@ -101,7 +110,10 @@ def lookup(domain, seq, output, writer):
 					else:
 						print(BRIGHT + GREEN + "[+] 搜狗权重：" + flag)
 				if flag and "pr" in src:
-					print(BRIGHT + GREEN + "[+] 谷歌权重：" + flag)
+					if flag == "n":
+						print(BRIGHT + GREEN + "[+] 谷歌权重： 0")
+					else:
+						print(BRIGHT + GREEN + "[+] 谷歌权重：" + flag)
 
 			else:
 				if flag and "爱站网" not in flag:
